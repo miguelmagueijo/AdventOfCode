@@ -82,8 +82,6 @@ def power_of_min_bag(games: list[str]) -> int:
 
     return sum(bag_powers), bag_powers
 
-# https://adventofcode.com/2023/day/2#part2
-
 if __name__ == "__main__":
     with open(Path(__file__).with_name("test.txt")) as fp:
         games = fp.readlines()
